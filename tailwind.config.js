@@ -1,14 +1,10 @@
 module.exports = {
   content: [
-    "./src/**/*.{html,js,jsx}",  // Tells Tailwind which files to scan for classes
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        emerald: "#10B981",
-        cyan: "#06B6D4",
-      },
-    },
+    extend: {},
   },
   plugins: [],
-}
+};
