@@ -1,11 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';  // Include your Tailwind or custom CSS
+import App from './App'; // or Portfolio if that's your main component
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root')); // Creates the root element
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <App /> {/* This can be <Portfolio /> if that's your main component */}
+  </React.StrictMode>
 );
