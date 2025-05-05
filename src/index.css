@@ -1,4 +1,25 @@
-/* Tailwind CSS imports */
+/* Import Tailwind's default styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Optional: Custom global styles */
+body {
+  font-family: 'Inter', sans-serif; /* Example custom font */
+  background-color: #121212; /* Dark background for the app */
+  color: #ffffff; /* Text color for better contrast */
+}
+
+/* Custom styles (if needed) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif; /* Custom font for headings */
+}
+
+a {
+  color: #10b981; /* Custom color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
