@@ -49,7 +49,7 @@ export default function Portfolio() {
           <h1 className="text-5xl text-white font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-cyan-400">
             Kalash Nirmale
           </h1>
-          <p className="text-xl text-gray-300">Software Developer | Financial Crime Fighter | Security Champion</p>
+          <p className="text-xl text-gray-300">Software Developer | Financial Crime Fighter | Security Champion | Love Animals</p>
         </motion.div>
       </header>
 
@@ -75,7 +75,9 @@ export default function Portfolio() {
         and a strong grasp of <strong>BI tools</strong> like Tableau and Amazon QuickSight, I bring clarity and structure
         to complex systems.
         </motion.p>
-        <p className="text-gray-700 text-lg mb-4">
+      </section>
+      <section>
+      <p className="text-gray-700 text-lg mb-4">
         What sets me apart is my ability to:
       </p>
       <ul className="list-disc list-inside text-gray-700 text-lg mb-4">
@@ -88,7 +90,6 @@ export default function Portfolio() {
         I aim to bring <strong>precision, polish, and purpose</strong> to every solution I create.
       </p>
       </section>
-
       {/* Projects Section */}
       <section id="projects" className="py-20 px-6">
         <motion.h2
