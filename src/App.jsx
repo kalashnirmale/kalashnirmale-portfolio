@@ -69,8 +69,24 @@ export default function Portfolio() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-lg text-gray-400 max-w-4xl mx-auto"
         >
-          I am a passionate Software Developer specializing in building scalable and secure applications. Currently, I'm working at NICE Actimize, where I develop tools for combating financial fraud and money laundering.
+        I’m a passionate Software Developer — I thrive at the intersection of <strong>backend logic</strong>,
+        <strong>data intelligence</strong>, and <strong>user-facing storytelling</strong>. With hands-on experience in
+        <strong> cloud-native development</strong> using AWS (Lambda, Step Functions, SageMaker, IAM, Athena, EC2),
+        and a strong grasp of <strong>BI tools</strong> like Tableau and Amazon QuickSight, I bring clarity and structure
+        to complex systems.
         </motion.p>
+        <p className="text-gray-700 text-lg mb-4">
+        What sets me apart is my ability to:
+      </p>
+      <ul className="list-disc list-inside text-gray-700 text-lg mb-4">
+        <li>Build robust backend solutions</li>
+        <li>Translate data into insights</li>
+        <li>Present them through intuitive dashboards and automated workflows</li>
+      </ul>
+      <p className="text-gray-700 text-lg">
+        Whether it's developing fraud detection systems at NICE Actimize or designing and hosting my own portfolio site,
+        I aim to bring <strong>precision, polish, and purpose</strong> to every solution I create.
+      </p>
       </section>
 
       {/* Projects Section */}
