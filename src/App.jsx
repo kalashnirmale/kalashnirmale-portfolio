@@ -108,11 +108,6 @@ export default function Portfolio() {
               link: "https://github.com/your-repo",
             },
             {
-              title: "Fraud Detection Framework",
-              description: "Developed a fraud detection pipeline using Python and AWS Lambda.",
-              link: "https://github.com/your-repo",
-            },
-            {
               title: "Visualization Framework",
               description: "Built a framework to standardize BI dashboards for fraud analytics.",
               link: "https://github.com/your-repo",
